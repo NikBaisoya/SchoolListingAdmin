@@ -1,0 +1,82 @@
+@import '../../../style-variables/variables';
+
+
+.navbar {
+    padding: 0px;
+    position: relative;
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+header {
+
+    height: 58px !important;
+    margin-top: 10px;
+}
+
+.top-menu {
+    max-height: 0;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    top: 73px;
+    background-color: $color_white;
+    z-index: 100;
+}
+
+.top-menu.mobile_slide {
+    max-height: 100px;
+}
+
+#side_toggle_btn {
+    position: absolute;
+    left: 23rem;
+    top: 15px;
+    background-color: $color_F8F5FD !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 2.3;
+}
+
+#sidebar-toggle {
+    border: none;
+    background: transparent !important;
+    margin-top: 7px !important;
+    color: $color_0d6efd !important
+}
+
+.top-menu {
+    max-height: 0;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    top: 73px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.top-menu.mobile_slide {
+    max-height: 100px;
+}
+
+.lbl-support {
+    margin-top: -5rem;
+    margin-left: 37rem;
+    cursor: pointer !important;
+}
+
+.side-panel {
+    background-color: $color_FAFAFA;
+    width: 14rem;
+    height: 86vh;
+}
+
+.wrapper {
+    margin-top: -39rem !important;
+    margin-left: 15rem !important;
+    max-width: 76rem !important;
+}

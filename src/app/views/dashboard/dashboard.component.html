@@ -1,0 +1,48 @@
+<div class="container-fluid" *ngIf="isShowHeader">
+    <mat-card>
+        <mat-card-content>
+            <nav class="navbar">
+                <div class="row">
+                    <div class="col-md-7">
+                        <a class="navbar-brand" href="#"><img src="../../../assets/images/logo.png" alt=""
+                                class="img-fluid"></a>
+                        <div class="media-body text-right switch-sm" id="side_toggle_btn">
+                            <label class="switch ml-3">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-align-center font-primary"
+                                        id="sidebar-toggle">
+                                        <line x1="18" y1="10" x2="6" y2="10"></line>
+                                        <line x1="21" y1="6" x2="3" y2="6"></line>
+                                        <line x1="21" y1="14" x2="3" y2="14"></line>
+                                        <line x1="18" y1="18" x2="6" y2="18"></line>
+                                    </svg>
+                                </a>
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </mat-card-content>
+    </mat-card>
+    <div class="row">
+        <div class="col-md-12 ">
+            <div class="side-panel">
+                <button mat-raised-button class="btn-list-school">
+                    List Your School<mat-icon>arrow_forward_ios</mat-icon>
+                </button>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div [ngClass]="{'wrapper' : isShowHeader}">
+    <div class="container-fluid">
+        <router-outlet></router-outlet>
+    </div>
+</div>

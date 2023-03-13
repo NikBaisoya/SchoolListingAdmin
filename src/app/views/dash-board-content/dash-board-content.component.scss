@@ -1,0 +1,126 @@
+@import '../../../style-variables/variables';
+
+.top_searchbox {
+    height: 15vh !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    color: $color_white !important;
+    margin-bottom: 50px !important;
+    padding: 30px !important;
+    background: url('../../../assets/images/searchbg.png') no-repeat;
+}
+
+.top_searchbox h1 {
+    margin-left: 25rem !important;
+    font-size: 3.1rem !important;
+    font-weight: 500 !important;
+}
+
+.top_searchbox p {
+    margin-left: 18rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+}
+
+.div-my-school mat-card {
+    width: 102% !important;
+    border-radius: 6px;
+}
+
+.div-my-school h3 {
+    font-weight: bold !important;
+    font-size: 2rem !important;
+    left: 2rem !important;
+    margin-left: 2rem !important;
+}
+
+.creative-dots {
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    list-style: none;
+    left: 0;
+    top: 0;
+}
+
+ul.creative-dots li {
+    position: absolute;
+    border-radius: 100%;
+}
+
+ul.creative-dots li.semi-big-dot {
+    width: 30px;
+    height: 30px;
+    left: -14px;
+    background: #FE80B2;
+    top: 42px;
+}
+
+ul.creative-dots li.medium-dot {
+    width: 20px;
+    height: 20px;
+    left: 18px;
+    top: -5px;
+    background: #FFC717;
+}
+
+ul.creative-dots li.semi-medium-dot {
+    width: 13px;
+    height: 13px;
+    background: #06B5DD;
+    left: 20px;
+    top: 38px;
+}
+
+ul.creative-dots li.semi-small-dot {
+    width: 8px;
+    background: #FE80B2;
+    height: 8px;
+    left: 32px;
+    top: 23px;
+}
+
+ul.creative-dots li.small-dot {
+    width: 4px;
+    height: 4px;
+    left: 42px;
+    background: #7E37D8;
+    top: 37px;
+}
+
+
+ul.creative-dots li.big-dot {
+    left: -32px;
+    top: 0;
+    background: #7E37D8;
+    width: 50px;
+    height: 50px;
+    border-radius: 80% !important;
+}
+
+.table {
+    width: 100% !important;
+}
+
+.bg-color-SchoolName {
+    color: #FC4F53;
+}
+
+.bg-color-status {
+    background: #FC4F53;
+    color: #ffffff;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(254, 128, 179, .2);
+}
+
+.bg-color {
+    background: linear-gradient(90deg, rgba(119, 80, 251, 1) 0%, rgba(255, 78, 78, 1) 100%);
+    box-shadow: 0 10px 15px rgba(0,0,0,.1)
+}
+
+th.mat-header-cell {
+    background: linear-gradient(90deg, rgba(119, 80, 251, 1) 0%, rgba(255, 78, 78, 1) 100%);
+    box-shadow: 0 10px 15px rgba(0,0,0,.1)
+  }

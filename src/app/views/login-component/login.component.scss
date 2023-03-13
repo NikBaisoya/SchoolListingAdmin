@@ -1,0 +1,33 @@
+@import "../../../style-variables/variables";
+
+.login-page {
+    background: url(../../../assets/images/login-bg.jpg) no-repeat center center fixed !important;
+    background-size: cover !important;
+    height: 100vh !important;
+    margin: 0px !important;
+    width: 100% !important;
+    -webkit-background-size: cover !important;
+    -o-background-size: cover !important;
+    -moz-background-size: cover !important;
+}
+
+.login-logo {
+    margin-top: 5rem !important;
+    margin-left: 36rem  !important;
+}
+mat-card {
+    width: 37% !important;
+    margin-left: 30rem !important;
+}
+.left-heading {
+    padding-left: 17em !important;
+   
+}
+.para-heading {
+    padding-left: 9em !important
+}
+.btn-primary
+{
+    width: 100% !important;
+    font-size: 1.25rem !important
+}

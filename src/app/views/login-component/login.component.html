@@ -1,0 +1,55 @@
+<section class="sec_padding login-page">
+    <div class="container h-100 d-flex align-items-center justify-content-center">
+        <div class="register_box">
+            <div class=" text-center pt-5 pb-3">
+                <img src="../../../assets/images/logo.png" alt="" class="login-logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <mat-card>
+                <mat-card-title>
+                    <h2 class="para-heading">Login</h2>
+                </mat-card-title>
+                <mat-card-content>
+                    <!-- <h2 class="para-heading">Login</h2> -->
+                    <p class="para-heading">Enter your Username and Password</p>
+                    <br /><br />
+                    <form [formGroup]="loginForm">
+                        <div class="row">
+                            <div class="col-md-12" style="padding-left: 26px;padding-right: 26px;">
+                                <mat-form-field appearance="outline" style="width: 100% !important;">
+                                    <mat-label>Email Address</mat-label>
+                                    <input matInput placeholder="User Name" type="text" formControlName="emailAddress"
+                                        required>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding-left: 26px;padding-right: 26px;">
+                                <mat-form-field appearance="outline" style="width: 100% !important;">
+                                    <mat-label>Password</mat-label>
+                                    <input matInput placeholder="Password" type="password" formControlName="password"
+                                        required>
+                                </mat-form-field>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12" style="padding-left: 26px;padding-right: 26px;">
+                                <button type="button" class="btn-primary" (click)="onFormSubmit()">
+                                    <span>Login</span>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</section>
